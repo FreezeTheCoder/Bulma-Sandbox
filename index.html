@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Bulma Sandbox</title>
+        <link href="css/bulma.css" type="text/css" rel="stylesheet"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    </head>
+
+    <body>
+
+        <!--Navigation Bar-->
+        <nav class="navbar is-fixed-top is-dark" role="navigation" aria-label="main-navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="#" class="navbar-item">Bs</a>
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="true" data-target="NavigationBar">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                
+                <div id="NavigationBar" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a href="index.html" class="navbar-item">Home</a>
+                        <a href="#hero" class="navbar-item">Hero</a>
+                        <a href="#section" class="navbar-item">Section</a>
+                        <a href="#card" class="navbar-item">Cards</a>
+                        <a href="#message" class="navbar-item">Message</a>
+                        <a href="#tiles" class="navbar-item">Tiles</a>
+                        <a href="#footer" class="navbar-item">Footer</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <!--Hero-->
+        <section class="hero is-light is-medium has-text-centered" id="hero">
+            <div class="container">
+                <div class="hero-body">
+                    <h1 class="title">Bulma Hero</h1>
+                </div>
+            </div>
+        </section>
+
+        <!--Section-->
+        <section class="section" id="section">
+            <div class="container">
+                <h1 class="title">Section Title</h1>
+                <h2 class="subtitle">Subtitles for the Section just created.</h2>
+        </section>
+        
+        <!--Card-->
+        <div class="container">
+            <div class="card" id="card">
+                    <div class="card-image">
+                        <figure class="image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="media-content">
+                            <p class="title is-4">Siddharth Sundar</p>
+                            <p class="subtitle is-6">@FreezeTheCoder</p>
+                        </div>
+                    </div>
+                    <div class="content">Content of the card just created.</div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!--Message-->
+        <div class="container">
+            <article class="message" id="message">
+                <div class="message-header">
+                    <p>Message</p>
+                    <button class="delete" aria-label="delete"></button>
+                </div>
+                <div class="message-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aliquam magni corporis nisi voluptas dolore recusandae consequuntur reprehenderit magnam omnis.
+                </div>
+            </article>
+        </div>
+        <br>
+
+        <!--Tiles-->
+        <div class="container">
+            <div class="tile is-ancestor" id="tiles">
+                <div class="tile is-child box">
+                    <h1 class="title">First Tile</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, laboriosam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nostrum temporibus cumque qui dolor, cupiditate numquam dolorum pariatur distinctio deleniti.</p>
+                </div>
+                <div class="tile is-child box">
+                    <h1 class="title">Second Tile</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis eius maiores reiciendis deleniti, rerum eveniet, quod aliquid explicabo debitis et ea ipsa? Aperiam eos esse sint deleniti porro maiores.</p>
+                </div>
+                <div class="tile is-child box">
+                    <h1 class="title">Third Tile</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus id ipsam laudantium. Sint possimus aut magni voluptatem reprehenderit nostrum tenetur quaerat commodi. Possimus minima qui ipsam aliquid asperiores animi temporibus!</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <footer class="footer has-background-dark has-text-light" id="footer">
+            <div class="content has-text-centered">
+                <p>
+                    Bulma Sandbox by <a href="https://github.com/FreezeTheCoder">Sid</a>.
+                </p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
